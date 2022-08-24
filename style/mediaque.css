@@ -1,0 +1,1663 @@
+
+/* For mobile phones */
+
+@media (min-width:320px) and (max-width:480px)
+{
+
+    #main
+{
+    background:linear-gradient(rgba(17, 123, 209, 0.89),rgba(13, 132, 211, 0.212)) ,url("../images/anastase-maragos-FP7cfYPPUKM-unsplash.jpg");
+    width: 100%;
+    background-size: cover;
+    
+}
+.header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.activeheader
+{
+    background: rgba(45, 49, 47, 0.836);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: all .5s;
+    
+}
+.activeLogo
+{
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo
+{
+    display: flex;
+    
+    
+}
+.logo p
+{
+    color: #fff;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+.logo a:hover
+{
+    text-decoration: none;
+}
+.logo img
+{
+    height:45px ;
+    margin-right: 20px;
+    
+}
+.hiddenlinks
+{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    z-index: 50;
+    transform: translateX(350px);
+    transition: all .4s;
+}
+
+.links
+{
+    margin-top: 10px;
+    display: none;
+    
+}
+.hiddenlinks .inner-links ul li
+{
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    margin-right: 20px;
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.hiddenlinks .inner-links ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s;
+}
+.hiddenlinks .inner-links ul li a:hover
+{
+    color: rgba(9, 147, 226, 0.788);
+    margin-left: 5px;
+}
+.header-btn button
+{
+    width: 130px;
+    padding:10px;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+.header-btn button:hover
+{
+    background:linear-gradient(rgb(11, 195, 228),rgb(14, 233, 185)) ;
+    color: #fff;
+}
+.header-menubtn img
+{
+    height: 40px;
+    display: block;
+    z-index: 60;
+}
+
+
+.main-row
+{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+.mainleft-col
+{
+    width: 50%;
+    text-align: center;
+    display: none;
+}
+
+
+.mainright-col
+{
+    width: 100%;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+    animation-name: Transform;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: initial;
+    transition: all .5s;
+}
+
+.mainright-col h5
+{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.mainright-col .store-btn
+{
+    
+  
+
+   width:auto;
+   margin:40px auto;
+   
+}
+
+.store-buttons
+{
+    display: block;
+    margin-top: 30px;
+}
+
+/* ----------------- main section style end ------------------------- */
+
+
+/* ----------------- color slider style ------------------------- */
+.color-slider
+{
+    display: none;
+}
+
+/* ----------------- color slider style end ------------------------- */
+
+
+/* ----------------- about section style ------------------------- */
+
+
+
+.about-container
+{
+   width: 90%;
+   margin:auto; 
+   display: flex;
+   flex-direction: column;
+   padding-top: 100px;
+}
+.about-left
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.about-right
+{
+    width: 100%;
+    padding-left:0px;
+   
+}
+.about-right h4
+{
+    margin-bottom: 30px;
+}
+.about-right p
+{
+    margin-bottom: 30px;
+}
+
+.Learn-btn
+{
+   
+    transition:none;
+}
+.Learn-btn:hover
+{
+    
+   margin-top:0px;
+   box-shadow: none;
+   transform: scale(1.03);
+}
+.about-img
+{
+    position: relative;
+    width: 100%;
+    
+}
+.about-img img
+{
+    width: 100%;
+    transition:none;
+}
+.about-banner
+{
+    transition: none;
+}
+.about-img:hover .about-banner
+{
+    box-shadow: none;
+}
+
+.about-img:hover .about-banner img
+{
+    transform: translate(0px,0px);
+}
+
+.Fitlogo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Firelogo img
+{
+    height: 40px;
+}
+.Dashbefore
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-right: 20px;
+}
+.Dashafter
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-left: 20px;
+}
+
+
+/* ----------------- about section style end ------------------------- */
+
+
+
+/* ----------------- features section style  ------------------------- */
+
+
+
+.feature-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+    flex-direction: column;
+}
+.feature-col
+{
+    width: 100%;
+    
+}
+.featurebanner
+{
+    text-align: center;
+    margin-top: 60px;
+   
+}
+.feature-inner
+{
+    display: flex;
+    margin-top: 60px;
+}
+.feature-col img
+{
+    width: 250px;
+    
+}
+
+
+/* ----------------- features section style end ------------------------- */
+
+
+
+/* ----------------- workout types section style  ------------------------- */
+
+
+
+.Workout-container
+{
+   
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+   
+}
+
+
+/* ----------------- workout types section style end ------------------------- */
+
+
+/* ----------------- tips section style  ------------------------- */
+
+
+
+.tips-row
+{
+    width: 90%;
+    margin: auto;
+   display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+}
+.tips-col
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.label h4
+{
+    font-size: 20px;
+}
+
+/* ----------------- tips section style end ------------------------- */
+
+
+/* ----------------- testimonials section style  ------------------------- */
+
+
+
+.Clients-container
+{
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+
+/* ----------------- testimonials section style end ------------------------- */
+
+
+
+/* ----------------- advetise section style  ------------------------- */
+
+
+.add-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.add-left-col
+{
+   
+    position: relative;
+    text-align: center;
+}
+
+.add-left-col,.add-right-col
+{
+    width: 100%;
+}
+.add-banner
+{
+    height: 450px;
+    position: relative;
+    top: 50px;
+    left:0px;
+    
+}
+.add-right-col
+{
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    
+}
+
+.add-btns
+{
+    display: block;
+    
+    
+}
+.add-button
+{
+    margin:25px auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------- advetise section style end ------------------------- */
+
+
+
+/* ----------------- contact section style  ------------------------- */
+
+
+.contact-row
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(19, 170, 190, 0.301);
+    flex-direction: column;
+}
+.contact-col
+{
+    width: 100%;
+    text-align: center;
+}
+.address-info
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;  
+   width: 200px;
+   margin:30px auto;
+   
+}
+
+
+.address-info span
+{
+    color: rgba(255, 255, 255, 0.685);
+}
+.address-info i
+{
+   
+    color: #fff;
+    font-size: 23px;
+    margin-right: 20px;
+}
+.social-info
+{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.social-info i
+{
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-info i:hover
+{
+    color: rgb(18, 143, 160);
+    transform: scale(1.05);
+}
+.social-info p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.685);
+}
+.about-firefit
+{
+    margin-bottom: 40px;
+}
+.about-firefit img
+{
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.support-links
+{
+    margin-top: 20px;
+}
+.support-links a
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.support-links a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+}
+.support-links a:hover
+{
+    color: rgb(18, 143, 160);
+    text-decoration: none;
+}
+.footer
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+/* ----------------- contact section style end ------------------------- */
+
+
+}
+
+
+/*---------------------------------- For Tablets ----------------------------------------------------------- */
+
+@media (min-width:481px) and (max-width:768px)
+{
+
+    #main
+    {
+        background:linear-gradient(rgba(17, 123, 209, 0.89),rgba(13, 132, 211, 0.212)) ,url("../images/anastase-maragos-FP7cfYPPUKM-unsplash.jpg");
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .header
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+    .activeheader
+    {
+        background: rgba(45, 49, 47, 0.836);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        transition: all .5s;
+        
+    }
+    .activeLogo
+    {
+        background: #fff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .logo
+    {
+        display: flex;
+        
+        
+    }
+    .logo p
+    {
+        color: #fff;
+        font-style: italic;
+        font-size: 30px;
+        
+    }
+    .logo a:hover
+    {
+        text-decoration: none;
+    }
+    .logo img
+    {
+        height:45px ;
+        margin-right: 20px;
+        
+    }
+    .hiddenlinks
+    {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        background: #000;
+        color: #fff;
+        height: 100vh;
+        z-index: 50;
+        transform: translateX(650px);
+        transition: all .4s;
+    }
+    
+    .links
+    {
+        margin-top: 10px;
+        display: none;
+        
+    }
+    .hiddenlinks .inner-links ul li
+    {
+        display: block;
+        text-align: left;
+        font-size: 18px;
+        margin-right: 20px;
+        width: 100%;
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+    .hiddenlinks .inner-links ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+        transition: all .4s;
+    }
+    .hiddenlinks .inner-links ul li a:hover
+    {
+        color: rgba(9, 147, 226, 0.788);
+        margin-left: 5px;
+    }
+    .header-btn button
+    {
+        width: 130px;
+        padding:10px;
+        border: none;
+        background: #fff;
+        color: #000;
+        cursor: pointer;
+        border-radius: 10px;
+        display: none;
+    }
+    .header-btn button:hover
+    {
+        background:linear-gradient(rgb(11, 195, 228),rgb(14, 233, 185)) ;
+        color: #fff;
+    }
+    .header-menubtn img
+    {
+        height: 40px;
+        display: block;
+        z-index: 60;
+    }
+    
+    
+    .main-row
+    {
+        display: flex;
+        width: 90%;
+        margin:auto;
+        padding-top: 180px;
+        padding-bottom: 60px;
+    }
+    .mainleft-col
+    {
+        width: 50%;
+        text-align: center;
+        display: none;
+    }
+    
+    
+    .mainright-col
+    {
+        width: 100%;
+        padding-top: 50px;
+        color: #fff;
+        text-align: center;
+        animation-name: Transform;
+        animation-duration: 1s;
+        animation-direction: normal;
+        animation-iteration-count: initial;
+        transition: all .5s;
+    }
+    
+    .mainright-col h5
+    {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .mainright-col .store-btn
+    {
+        
+      
+    
+       width: auto;
+       margin:40px 10px;
+    }
+    
+    .store-buttons
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    /* ----------------- main section style end ------------------------- */
+
+
+    /* ----------------- about section style ------------------------- */
+
+
+
+.about-container
+{
+   width: 90%;
+   margin:auto; 
+   display: flex;
+   flex-direction: column;
+   padding-top: 100px;
+}
+.about-left
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.about-right
+{
+    width: 100%;
+    padding-left:0px;
+   
+}
+.about-right h4
+{
+    margin-bottom: 30px;
+}
+.about-right p
+{
+    margin-bottom: 30px;
+}
+
+.Learn-btn
+{
+   
+    transition:none;
+}
+.Learn-btn:hover
+{
+    
+   margin-top:0px;
+   box-shadow: none;
+   transform: scale(1.03);
+}
+.about-img
+{
+    position: relative;
+    width: 100%;
+    
+}
+.about-img img
+{
+    width: 100%;
+    transition:none;
+}
+.about-banner
+{
+    transition: none;
+}
+.about-img:hover .about-banner
+{
+    box-shadow: none;
+}
+
+.about-img:hover .about-banner img
+{
+    transform: translate(0px,0px);
+}
+
+.Fitlogo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Firelogo img
+{
+    height: 40px;
+}
+.Dashbefore
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-right: 20px;
+}
+.Dashafter
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-left: 20px;
+}
+
+
+/* ----------------- about section style end ------------------------- */
+
+
+/* ----------------- features section style  ------------------------- */
+
+
+
+.feature-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+    flex-direction: column;
+}
+.feature-col
+{
+    width: 100%;
+    
+}
+.featurebanner
+{
+    text-align: center;
+    margin-top: 60px;
+   
+}
+.feature-inner
+{
+    display: flex;
+    margin-top: 60px;
+}
+.feature-col img
+{
+    width: 280px;
+    
+}
+
+
+/* ----------------- features section style end ------------------------- */
+
+
+/* ----------------- tips section style  ------------------------- */
+
+
+
+.tips-row
+{
+    width: 90%;
+    margin: auto;
+   display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+}
+.tips-col
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.label h4
+{
+    font-size: 20px;
+}
+
+/* ----------------- tips section style end ------------------------- */
+
+
+
+/* ----------------- testimonials section style  ------------------------- */
+
+
+
+.Clients-container
+{
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+
+/* ----------------- testimonials section style end ------------------------- */
+
+
+/* ----------------- advetise section style  ------------------------- */
+
+
+.add-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.add-left-col
+{
+   
+    position: relative;
+    text-align: center;
+}
+
+.add-left-col,.add-right-col
+{
+    width: 100%;
+}
+.add-banner
+{
+    height: 490px;
+    position: relative;
+    top: 50px;
+    left:0px;
+    
+}
+.add-right-col
+{
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    
+}
+
+.add-btns
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.add-button
+{
+    margin:25px 10px;
+    width:40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------- advetise section style end ------------------------- */
+
+
+/* ----------------- contact section style  ------------------------- */
+
+
+.contact-row
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(19, 170, 190, 0.301);
+    flex-direction: column;
+}
+.contact-col
+{
+    width: 100%;
+    text-align: center;
+}
+.address-info
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;  
+   width: 200px;
+   margin:30px auto;
+   
+}
+
+
+.address-info span
+{
+    color: rgba(255, 255, 255, 0.685);
+}
+.address-info i
+{
+   
+    color: #fff;
+    font-size: 23px;
+    margin-right: 20px;
+}
+.social-info
+{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.social-info i
+{
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-info i:hover
+{
+    color: rgb(18, 143, 160);
+    transform: scale(1.05);
+}
+.social-info p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.685);
+}
+.about-firefit
+{
+    margin-bottom: 40px;
+}
+.about-firefit img
+{
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.support-links
+{
+    margin-top: 20px;
+}
+.support-links a
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.support-links a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+}
+.support-links a:hover
+{
+    color: rgb(18, 143, 160);
+    text-decoration: none;
+}
+.footer
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+/* ----------------- contact section style end ------------------------- */
+
+
+
+
+    
+}
+
+
+/*------------------------------------------- For large device ----------------------------------------------------------------- */
+
+
+
+@media (min-width:769px) and (max-width:960px)
+{
+
+    #main
+    {
+        background:linear-gradient(rgba(17, 123, 209, 0.89),rgba(13, 132, 211, 0.212)) ,url("../images/anastase-maragos-FP7cfYPPUKM-unsplash.jpg");
+        width: 100%;
+        background-size: cover;
+        
+    }
+    .header
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+    .activeheader
+    {
+        background: rgba(45, 49, 47, 0.836);
+        padding-top: 20px;
+        padding-bottom: 10px;
+        transition: all .5s;
+        
+    }
+    .activeLogo
+    {
+        background: #fff;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .logo
+    {
+        display: flex;
+        
+        
+    }
+    .logo p
+    {
+        color: #fff;
+        font-style: italic;
+        font-size: 30px;
+        
+    }
+    .logo a:hover
+    {
+        text-decoration: none;
+    }
+    .logo img
+    {
+        height:45px ;
+        margin-right: 20px;
+        
+    }
+    .hiddenlinks
+    {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+        background: #000;
+        color: #fff;
+        height: 100vh;
+        z-index: 50;
+        transform: translateX(650px);
+        transition: all .4s;
+    }
+    
+    .links
+    {
+        margin-top: 10px;
+        display: none;
+        
+    }
+    .hiddenlinks .inner-links ul li
+    {
+        display: block;
+        text-align: left;
+        font-size: 18px;
+        margin-right: 20px;
+        width: 100%;
+        padding-left: 50px;
+        margin-top: 30px;
+    }
+    .hiddenlinks .inner-links ul li a
+    {
+        text-decoration: none;
+        color: #fff;
+        transition: all .4s;
+    }
+    .hiddenlinks .inner-links ul li a:hover
+    {
+        color: rgba(9, 147, 226, 0.788);
+        margin-left: 5px;
+    }
+    .header-btn button
+    {
+        width: 130px;
+        padding:10px;
+        border: none;
+        background: #fff;
+        color: #000;
+        cursor: pointer;
+        border-radius: 10px;
+        
+    }
+    .header-btn button:hover
+    {
+        background:linear-gradient(rgb(11, 195, 228),rgb(14, 233, 185)) ;
+        color: #fff;
+    }
+    .header-menubtn img
+    {
+        height: 40px;
+        display: block;
+        z-index: 60;
+    }
+    
+    
+    .main-row
+    {
+        display: block;
+        width: 90%;
+        margin:auto;
+        padding-top: 180px;
+        padding-bottom: 60px;
+    }
+    .mainleft-col
+    {
+        width: 50%;
+        text-align: center;
+        /* display: none; */
+    }
+    
+    
+    .mainright-col
+    {
+        width: 100%;
+        padding-top: 50px;
+        color: #fff;
+        text-align: center;
+        animation-name: Transform;
+        animation-duration: 1s;
+        animation-direction: normal;
+        animation-iteration-count: initial;
+        transition: all .5s;
+    }
+    
+    .mainright-col h5
+    {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .mainright-col .store-btn
+    {
+        
+      
+    
+       width: auto;
+       margin:40px 10px;
+    }
+    
+    .store-buttons
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    /* ----------------- main section style end ------------------------- */ 
+
+
+
+     /* ----------------- about section style ------------------------- */
+
+
+
+.about-container
+{
+   width: 90%;
+   margin:auto; 
+   display: flex;
+   flex-direction: column;
+   padding-top: 100px;
+}
+.about-left
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.about-right
+{
+    width: 100%;
+    padding-left:0px;
+   
+}
+.about-right h4
+{
+    margin-bottom: 30px;
+}
+.about-right p
+{
+    margin-bottom: 30px;
+}
+
+.Learn-btn
+{
+   
+    transition:none;
+}
+.Learn-btn:hover
+{
+    
+   margin-top:0px;
+   box-shadow: none;
+   transform: scale(1.03);
+}
+.about-img
+{
+    position: relative;
+    width: 100%;
+    
+}
+.about-img img
+{
+    width: 100%;
+    transition:none;
+}
+.about-banner
+{
+    transition: none;
+}
+.about-img:hover .about-banner
+{
+    box-shadow: none;
+}
+
+.about-img:hover .about-banner img
+{
+    transform: translate(0px,0px);
+}
+
+.Fitlogo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Firelogo img
+{
+    height: 40px;
+}
+.Dashbefore
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-right: 20px;
+}
+.Dashafter
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-left: 20px;
+}
+
+
+/* ----------------- about section style end ------------------------- */
+
+
+/* ----------------- features section style  ------------------------- */
+
+
+
+.feature-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+    flex-direction: column;
+}
+.feature-col
+{
+    width: 100%;
+    
+}
+.featurebanner
+{
+    text-align: center;
+    margin-top: 60px;
+   
+}
+.feature-inner
+{
+    display: flex;
+    margin-top: 60px;
+}
+.feature-col img
+{
+    width: 280px;
+    
+}
+
+
+/* ----------------- features section style end ------------------------- */
+
+
+/* ----------------- testimonials section style  ------------------------- */
+
+
+
+.Clients-container
+{
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+
+/* ----------------- testimonials section style end ------------------------- */
+
+
+/* ----------------- advetise section style  ------------------------- */
+
+
+.add-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.add-left-col
+{
+   
+    position: relative;
+    text-align: center;
+}
+
+.add-left-col,.add-right-col
+{
+    width: 100%;
+}
+.add-banner
+{
+    height: 490px;
+    position: relative;
+    top: 50px;
+    left:0px;
+    
+}
+.add-right-col
+{
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    
+}
+
+.add-btns
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.add-button
+{
+    margin:25px 10px;
+    width:35%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------- advetise section style end ------------------------- */
+
+
+/* ----------------- contact section style  ------------------------- */
+
+
+.contact-row
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(19, 170, 190, 0.301);
+    flex-direction: column;
+}
+.contact-col
+{
+    width: 100%;
+    text-align: center;
+}
+.address-info
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;  
+   width: 200px;
+   margin:30px auto;
+   
+}
+
+
+.address-info span
+{
+    color: rgba(255, 255, 255, 0.685);
+}
+.address-info i
+{
+   
+    color: #fff;
+    font-size: 23px;
+    margin-right: 20px;
+}
+.social-info
+{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.social-info i
+{
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-info i:hover
+{
+    color: rgb(18, 143, 160);
+    transform: scale(1.05);
+}
+.social-info p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.685);
+}
+.about-firefit
+{
+    margin-bottom: 40px;
+}
+.about-firefit img
+{
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.support-links
+{
+    margin-top: 20px;
+}
+.support-links a
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.support-links a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+}
+.support-links a:hover
+{
+    color: rgb(18, 143, 160);
+    text-decoration: none;
+}
+.footer
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+
+
+/* ----------------- contact section style end ------------------------- */
+
+
+}
+
+
+
+/*---------------------- For large device ------------------------- */
+@media (min-width:961px) and (max-width:1200px)
+{
+
+
+    
+    .mainleft-col img
+{
+    width:300px;
+    animation-name: Zoomanimation;
+    animation-duration: .8s;
+    animation-direction: normal;
+    animation-iteration-count: initial;
+   
+}
+
+.feature-col img
+{
+    width: 270px;
+    margin-top: 50px;
+}
+
+
+.add-banner
+{
+    height: 650px;
+    position: absolute;
+    top: -50px;
+    left:80px;
+    
+}
+
+
+.logo img
+{
+    height:45px ;
+    margin-right:5px;
+    
+}
+
+.header-btn button
+{
+    width: 100px;
+    padding:10px;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.about-container
+{
+   width: 90%;
+   margin:auto; 
+   display: flex;
+   padding-top: 100px;
+   flex-direction: column;
+}
+.about-left
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-right
+{
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.about-img
+{
+    position: relative;
+    
+    
+    width: 600px;
+}
+.about-img img
+{
+    width:100%;
+    transition: all .8s;
+}
+
+}

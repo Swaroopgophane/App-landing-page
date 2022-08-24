@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------- main section style ------------- */
+
+#main
+{
+    background:linear-gradient(rgba(17, 123, 209, 0.89),rgba(13, 132, 211, 0.212)) ,url("../images/anastase-maragos-FP7cfYPPUKM-unsplash.jpg");
+    width: 100%;
+    background-size: cover;
+    
+}
+.header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.activeheader
+{
+    background: rgba(45, 49, 47, 0.836);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: all .5s;
+    
+}
+.activeLogo
+{
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo
+{
+    display: flex;
+   
+    
+}
+.logo p
+{
+    color: #fff;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+.logo a:hover
+{
+    text-decoration: none;
+}
+.logo img
+{
+    height:45px ;
+    margin-right: 20px;
+    
+}
+.hiddenlinks
+{
+    display: none;
+    
+}
+
+.links
+{
+    margin-top: 10px;
+    
+}
+.inner-links ul li
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.inner-links ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.inner-links ul li a:hover
+{
+    color: rgba(0, 0, 0, 0.678);
+}
+
+
+
+.header-btn button
+{
+    width: 130px;
+    padding:10px;
+    border: none;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.header-btn button:hover
+{
+    background:linear-gradient(rgb(11, 195, 228),rgb(14, 233, 185)) ;
+    color: #fff;
+}
+.header-menubtn img
+{
+   height: 40px;
+   position: fixed;
+   top: 25px;
+   right: 30px;
+   display: none;
+   cursor: pointer;
+}
+.main-row
+{
+    display: flex;
+    width: 90%;
+    margin:auto;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+.mainleft-col
+{
+    width: 50%;
+    text-align: center;
+}
+.mainleft-col img
+{
+    width:330px;
+    animation-name: Zoomanimation;
+    animation-duration: .8s;
+    animation-direction: normal;
+    animation-iteration-count: initial;
+   
+}
+@keyframes Zoomanimation
+{
+    0%{
+        
+        margin-top: 120px;
+        opacity: 0;
+    }
+    100%{
+        
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+.mainright-col
+{
+    width: 50%;
+    padding-top: 50px;
+    color: #fff;
+
+    animation-name: Transform;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: initial;
+    transition: all .5s;
+}
+@keyframes Transform
+{
+    0%{
+        margin-top: 40px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+.mainright-col h5
+{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.mainright-col .store-btn
+{
+    
+   padding: 10px;
+    border: none;
+    background: linear-gradient(rgb(11, 241, 172),rgb(26, 151, 182));
+    color: #fff;
+   display: flex;
+   align-items: center;
+   font-size: 20px;
+   margin-right: 20px;
+   border-radius: 10px;
+   transition: all .2s;
+}
+.mainright-col .store-btn:hover
+{
+    background:#fff ;
+    color: #000;
+}
+.mainright-col .store-btn i
+{
+   
+  font-size: 30px;
+  margin-right: 10px;
+  transition: all .4s;
+}
+.mainright-col .store-btn:hover i
+{
+    transform: rotateY(360deg);
+}
+.store-buttons
+{
+    display: flex;
+    margin-top: 30px;
+}
+
+/* ----------------- main section style end ------------------------- */
+
+
+/* ----------------- color slider style ------------------------- */
+.color-slider
+{
+    position:fixed;
+    top:300px;
+    left: 0;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    z-index: 50;
+}
+.setting-img i
+{
+    margin-left: 30px;
+    font-size: 35px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.setting-img i:hover
+{
+    transform: rotateZ(100deg);
+}
+#color1
+{
+    background: rgb(5, 228, 135);
+}
+#color2
+{
+    background: rgb(5, 195, 228);
+}
+#color3
+{
+    background: rgb(228, 5, 198);
+}
+#color4
+{
+    background: rgb(228, 12, 5);
+}
+#color5
+{
+    background: rgb(5, 228, 42);
+}
+#color6
+{
+    background: rgb(228, 5, 79);
+}
+#color7
+{
+    background: rgb(228, 113, 5);
+}
+#color8
+{
+    background: rgb(5, 83, 228);
+}
+
+.color-slider .color-row
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(40px,1fr));
+	column-gap: 10px;
+    row-gap: 10px;
+    width: 80%;
+}
+.color-slider .color-box
+{
+    width: 100%;
+    height: 30px;
+    background: #000;
+    cursor: pointer;
+}
+#Colorslider
+{
+    transform: translateX(-230px);
+    transition: all .4s;
+}
+
+/* ----------------- color slider style end ------------------------- */
+
+
+/* ----------------- about section style ------------------------- */
+
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.common-heading
+{
+    text-align: center;
+}
+.common-heading p
+{
+    margin-top: 15px;
+}
+.Line
+{
+    width: 100px;
+    height: 2px;
+    margin:auto;
+    background: #000;
+    display: block;
+}
+.about-container
+{
+   width: 90%;
+   margin:auto; 
+   display: flex;
+   padding-top: 100px;
+}
+.about-left
+{
+    width: 50%;
+}
+.about-right
+{
+    width: 50%;
+    padding-left: 30px;
+}
+.about-right h4
+{
+    margin-bottom: 20px;
+}
+.about-right p
+{
+    margin-bottom: 30px;
+}
+
+.Learn-btn
+{
+    width: 130px;
+    padding: 10px;
+    border:none;
+    background: linear-gradient(rgb(11, 241, 172),rgb(26, 151, 182));
+    color: #fff;
+    border-radius: 10px;
+    transition: all .4s;
+}
+.Learn-btn:hover
+{
+    
+   margin-top: -8px;
+   box-shadow: rgba(0,0,0,.3)0px 6px 10px 0px;
+}
+.about-img
+{
+    position: relative;
+    
+    
+    width: 100%;
+}
+.about-img img
+{
+    width:100%;
+    transition: all .8s;
+}
+.about-banner
+{
+    transition: all 1s;
+}
+.about-img:hover .about-banner
+{
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+}
+
+.about-img:hover .about-banner img
+{
+    transform: translate(50px,-50px);
+}
+
+.Fitlogo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Firelogo img
+{
+    height: 40px;
+}
+.Dashbefore
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-right: 20px;
+}
+.Dashafter
+{
+    width: 120px;
+    height: 2px;
+    background: rgba(138, 121, 121, 0.322);
+    margin-left: 20px;
+}
+
+
+/* ----------------- about section style end ------------------------- */
+
+
+/* ----------------- features section style  ------------------------- */
+
+#features
+{
+    width: 100%;
+    background:linear-gradient(rgb(11, 195, 228),rgb(14, 233, 185)) ;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+#features .Line
+{
+    background: #fff;
+}
+
+.feature-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.feature-col
+{
+    width: 30%;
+    
+}
+.featurebanner
+{
+    text-align: center;
+}
+.feature-inner
+{
+    display: flex;
+    margin-top: 60px;
+}
+.feature-col img
+{
+    width: 300px;
+    
+}
+.feature-img i
+{
+    font-size: 25px;
+    background: #fff;
+    color: rgba(7, 47, 223, 0.795);
+    padding: 15px;
+    border-radius: 30px;
+}
+.feature-img i:hover
+{
+   background: linear-gradient(rgb(41, 228, 4),rgb(46, 202, 111));
+   color: #fff;
+   
+}
+.feature-info
+{
+    margin-left: 20px;
+}
+
+/* ----------------- features section style end ------------------------- */
+
+
+
+
+/* ----------------- workout types section style  ------------------------- */
+
+#workouttypes
+{
+    
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+.Workout-container
+{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    column-gap: 20px;
+    row-gap: 50px;
+    padding-top: 80px;
+}
+.workout-cols
+{
+    width: 100%;
+    text-align: center;
+    box-shadow: rgba(0,0,0,.3)0px 2px 6px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    border-radius: 20px;
+}
+.workout-info
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:0;
+    background:rgba(27, 191, 197, 0.753);
+    transition: all .5s;
+    opacity: 0;
+    padding: 20px;
+    color: rgba(53, 47, 47, 0.76);
+    border-radius: 20px;
+}
+.workout-cols:hover .workout-info
+{
+    height: 100%;
+    opacity: 1;
+}
+.workout-cols img
+{
+    height: 150px;
+}
+
+/* ----------------- workout types section style end ------------------------- */
+
+
+
+/* ----------------- tips section style  ------------------------- */
+
+
+
+#tips
+{
+    width: 100%;
+    background:linear-gradient(rgb(11, 195, 228),rgb(14, 233, 185)) ;
+    padding-top: 100px;
+    padding-bottom: 80px; 
+}
+#tips .common-heading
+{
+    color: #fff;
+}
+#tips .Line
+{
+    background: #fff;
+}
+.tips-row
+{
+    width: 90%;
+    margin: auto;
+   display: flex;
+    padding-top: 80px;
+}
+.tips-col
+{
+    width: 95%;
+    margin-bottom: 30px;
+}
+.col-inner
+{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+}
+.col-inner:hover
+{
+   box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+}
+.label
+{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.label h4
+{
+    padding-left: 30px;
+}
+.hiddden-info
+{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .4s;
+}
+.hiddden-info p
+{
+    padding-left: 30px;
+}
+#plus,#plus2,#plus3,#plus4,#plus5,#plus6
+{
+    position:absolute;
+    top: 29px;
+    transition: all .4s;
+}
+#minus,#minus2,#minus3,#minus4,#minus5,#minus6
+{
+    opacity: 0;
+    position:absolute;
+    top: 29px;
+    transition: all .4s;
+}
+
+/* ----------------- tips section style end ------------------------- */
+
+
+
+/* ----------------- testimonials section style  ------------------------- */
+
+
+#testimonials
+{
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+.Clients-container
+{
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+}
+.carousel-cell
+{
+    width: 100%;
+    padding: 20px;
+    background: rgba(65, 56, 56, 0.699);
+    text-align: center;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.carousel-cell h4
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.carousel-cell .Comment::before
+{
+    content:'\201c' ;
+    margin-bottom: -50px;
+   margin-top: -20px;
+   margin-left: 20px;
+   display: flex;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(249, 253, 249);
+}
+
+.carousel-cell img
+{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+/* ----------------- testimonials section style end ------------------------- */
+
+
+
+/* ----------------- advetise section style  ------------------------- */
+
+#advertise
+{
+    width: 100%;
+    background:linear-gradient(rgba(11, 195, 228, 0.911),rgba(14, 233, 186, 0.767)),url("../images/risen-wang-20jX9b35r_M-unsplash.jpg") ;
+   background-size: cover;
+   background-position: center;
+    margin-top: 100px;
+
+}
+.add-row
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.add-left-col
+{
+   width: 50%;
+    position: relative;
+}
+
+.add-right-col
+{
+    width: 50%;
+}
+.add-banner
+{
+    height: 650px;
+    position: absolute;
+    top: -50px;
+    left: 200px;
+    
+}
+.add-right-col
+{
+    color: #fff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+}
+.add-right-col p
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.add-btns
+{
+    display: flex;
+    align-items: center;
+}
+.add-button
+{
+    padding: 15px 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.add-button:hover
+{
+    background: rgba(0, 0, 0, 0.767);
+    color: #fff;
+}
+.add-button i
+{
+    font-size:25px;
+    margin-right: 10px;
+}
+.add-button img
+{
+    height: 25px;
+    margin-right: 10px;
+}
+
+/* ----------------- advetise section style end ------------------------- */
+
+
+/* ----------------- contact section style  ------------------------- */
+
+#contact
+{
+   margin-top: 180px;
+   background: rgb(39, 36, 36);
+    padding-top: 100px;
+    
+    color: #fff;
+}
+
+#contact .common-heading .Line
+{
+    background: #fff;
+}
+.contact-row
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 80px;
+    border-bottom: 1px solid rgba(19, 170, 190, 0.301);
+}
+.contact-col
+{
+    width: 20%;
+}
+.address-info
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.address-info span
+{
+    color: rgba(255, 255, 255, 0.685);
+}
+.address-info i
+{
+   
+    color: #fff;
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+.social-info i
+{
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-info i:hover
+{
+    color: rgb(18, 143, 160);
+    transform: scale(1.05);
+}
+.social-info p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.685);
+}
+.about-firefit img
+{
+    height: 50px;
+    margin-bottom: 20px;
+    
+}
+.support-links
+{
+    margin-top: 20px;
+}
+.support-links a
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.support-links a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+}
+.support-links a:hover
+{
+    color: rgb(18, 143, 160);
+    text-decoration: none;
+}
+.footer
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.685);
+}
+.footer i
+{
+    color: rgb(16, 212, 196);
+}
+.f-brand
+{
+    color: rgb(16, 212, 196);
+}
+
+
+/* ----------------- contact section style end ------------------------- */
