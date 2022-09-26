@@ -29,7 +29,7 @@
     padding-top: 20px;
     padding-bottom: 10px;
     transition: all .5s;
-    
+    color: rgb(26, 202, 214);
 }
 .activeLogo
 {
@@ -85,7 +85,7 @@
 }
 .inner-links ul li a:hover
 {
-    color: rgba(14, 210, 241, 0.678);
+    color: rgba(0, 0, 0, 0.678);
 }
 
 
