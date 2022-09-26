@@ -25,11 +25,11 @@
 }
 .activeheader
 {
-    background: rgba(45, 49, 47, 0.836);
+    background: rgba(22, 214, 204, 0.896);
     padding-top: 20px;
     padding-bottom: 10px;
     transition: all .5s;
-    color: rgb(26, 202, 214);
+    
 }
 .activeLogo
 {
