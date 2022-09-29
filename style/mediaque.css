@@ -64,7 +64,7 @@
     display: block;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -350px;
     width: 50%;
     background: #000;
     color: #fff;
@@ -613,12 +613,12 @@
         display: block;
         position: fixed;
         top: 0;
-        right: -300px;
+        right: -350px;
         width: 40%;
         background: #000;
         color: #fff;
         height: 100vh;
-        z-index: 50;
+        z-index: 10;
         transition: all .4s;
     }
     
@@ -669,7 +669,7 @@
     {
         height: 40px;
         display: block;
-        z-index: 60;
+        
     }
     
     
@@ -1140,12 +1140,12 @@
         display: block;
         position: fixed;
         top: 0;
-        right: -300px;
-        width: 30%;
+        right: -350px;
+        width: 32%;
         background: #000;
         color: #fff;
         height: 100vh;
-        z-index: 50;
+        z-index: 10;
         transition: all .4s;
     }
     
@@ -1190,7 +1190,7 @@
     {
         height: 40px;
         display: block;
-        z-index: 60;
+      
     }
     
     
