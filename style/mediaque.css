@@ -1178,13 +1178,7 @@
     }
     .header-btn button
     {
-        width: 130px;
-        padding:10px;
-        border: none;
-        background: #fff;
-        color: #000;
-        cursor: pointer;
-        border-radius: 10px;
+        display: none;
         
     }
     .header-btn button:hover

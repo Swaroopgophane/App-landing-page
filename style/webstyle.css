@@ -108,9 +108,6 @@
 .header-menubtn img
 {
    height: 40px;
-   position: fixed;
-   top: 25px;
-   right: 30px;
    display: none;
    cursor: pointer;
 }
