@@ -51,7 +51,7 @@ Labelque.onclick = function()
     Innercol3.style.background = ''
     Innercol3.style.color = ''
    
-
+    Tipinfo.style.paddingTop = '10px'
     Tipinfo.style.maxHeight = '100vh'
     Tipinfo2.style.maxHeight = '0'
     Tipinfo3.style.maxHeight = '0'
@@ -75,6 +75,7 @@ Labelque2.onclick = function()
     Innercol3.style.background = ''
     Innercol3.style.color = ''
 
+    Tipinfo2.style.paddingTop = '10px'
     Tipinfo.style.maxHeight = '0'
     Tipinfo2.style.maxHeight = '100vh'
     Tipinfo3.style.maxHeight = '0'
@@ -99,6 +100,7 @@ Labelque3.onclick = function()
     Innercol3.style.background = 'rgba(0,0,0,.6)'
     Innercol3.style.color = '#fff'
 
+    Tipinfo3.style.paddingTop = '10px'
     Tipinfo.style.maxHeight = '0'
     Tipinfo2.style.maxHeight = '0'
     Tipinfo3.style.maxHeight = '100vh'
@@ -123,6 +125,7 @@ Labelque4.onclick = function()
     Innercol6.style.background = ''
     Innercol6.style.color = ''
 
+    Tipinfo4.style.paddingTop = '10px'
     Tipinfo4.style.maxHeight = '100vh'
     Tipinfo5.style.maxHeight = '0'
     Tipinfo6.style.maxHeight = '0'
@@ -147,6 +150,7 @@ Labelque5.onclick = function()
     Innercol6.style.background = ''
     Innercol6.style.color = ''
 
+    Tipinfo5.style.paddingTop = '10px'
     Tipinfo4.style.maxHeight = '0'
     Tipinfo5.style.maxHeight = '100vh'
     Tipinfo6.style.maxHeight = '0'
@@ -171,6 +175,7 @@ Labelque6.onclick = function()
     Innercol6.style.background = 'rgba(0,0,0,.6)'
     Innercol6.style.color = '#fff'
 
+    Tipinfo6.style.paddingTop = '10px'
     Tipinfo4.style.maxHeight = '0'
     Tipinfo5.style.maxHeight = '0'
     Tipinfo6.style.maxHeight = '100vh'
